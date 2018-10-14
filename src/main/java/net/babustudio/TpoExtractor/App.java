@@ -37,7 +37,8 @@ public class App {
         try {
             App app = new App();
             app.getContent();
-            app.output();
+            //app.output();
+            app.outputToSingle();
             System.out.println("Program completed.");
         } catch (SQLException e) {
             e.printStackTrace();
@@ -124,6 +125,21 @@ public class App {
         }
     }
 
+    public void outputToSingle() throws IOException {
+        File dir = new File(this.outputDirectory);
+        if (!dir.exists() || !dir.isDirectory()) {
+            IOException ioException = new IOException("Failed to access the directory.");
+        }
+        dir.createNewFile();
+        File mapping = new File(this.outputDirectory + "/" + "[" + "ULTIMATE_COLLECTION" + "].txt");
+        mapping.createNewFile();
+        for (Article article : this.articles) {
+            FileWriter fileWriter = new FileWriter(mapping,true);
+            fileWriter.write(String.format("\n\n---------------------[%s] %s----------------------\n\n",article.getArticleID(),article.getTitle()));
+            fileWriter.write(article.getContent());
+            fileWriter.close();
+        }
+    }
     public class Article implements Serializable {
         String articleID, title, content;
 
