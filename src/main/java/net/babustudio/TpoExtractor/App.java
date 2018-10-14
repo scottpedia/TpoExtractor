@@ -27,7 +27,7 @@ public class App {
         } catch (SQLException e) {
             System.err.println("Failed to get the connection! Error(s):\n" + e.getMessage());
             System.exit(1);
-        }catch (IOException e){
+        } catch (IOException e) {
             System.err.println("Failed to get properties...\n" + e.getMessage());
             System.exit(1);
         }
@@ -37,8 +37,8 @@ public class App {
         try {
             App app = new App();
             app.getContent();
-            //app.output();
-            app.outputToSingle();
+            app.output();
+//            app.outputToSingle();
             System.out.println("Program completed.");
         } catch (SQLException e) {
             e.printStackTrace();
@@ -47,7 +47,7 @@ public class App {
         }
     }
 
-    private void getProperties() throws IOException{
+    private void getProperties() throws IOException {
         InputStream settings = new FileInputStream("settings.properties");
         Properties properties = new Properties();
         properties.load(settings);
@@ -57,7 +57,7 @@ public class App {
         System.out.println("properties' got.");
     }
 
-    private void getContent() throws SQLException {
+    public void getContent() throws SQLException {
         ResultSet result = this.getResult();
         try {
             result.next();
@@ -125,21 +125,6 @@ public class App {
         }
     }
 
-    public void outputToSingle() throws IOException {
-        File dir = new File(this.outputDirectory);
-        if (!dir.exists() || !dir.isDirectory()) {
-            IOException ioException = new IOException("Failed to access the directory.");
-        }
-        dir.createNewFile();
-        File mapping = new File(this.outputDirectory + "/" + "[" + "ULTIMATE_COLLECTION" + "].txt");
-        mapping.createNewFile();
-        for (Article article : this.articles) {
-            FileWriter fileWriter = new FileWriter(mapping,true);
-            fileWriter.write(String.format("\n\n---------------------[%s] %s----------------------\n\n",article.getArticleID(),article.getTitle()));
-            fileWriter.write(article.getContent());
-            fileWriter.close();
-        }
-    }
     public class Article implements Serializable {
         String articleID, title, content;
 
