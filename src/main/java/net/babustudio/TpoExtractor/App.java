@@ -2,30 +2,33 @@ package net.babustudio.TpoExtractor;
 
 import com.google.gson.GsonBuilder;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.Serializable;
+import java.io.*;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Properties;
 
 
 /**
  * Hello world!
  */
 public class App {
-    Connection conn = null;
-    String sentence = "select articleID,title,paragraphDetail from tbl_toefl_paragraph order by articleID;";
-    String connectionProperties = "jdbc:sqlite:/Users/Billy/coda/ylk.db";
-    String outputDirectory = "/Users/Billy/Documents/coda/TpoOutput";
-    ArrayList<Article> articles = new ArrayList<Article>();
+    protected Connection conn = null;
+    protected String sentence = "select articleID,title,paragraphDetail from tbl_toefl_paragraph order by articleID;";
+    protected String connectionProperties = "";
+    protected String outputDirectory = "";
+    protected ArrayList<Article> articles = new ArrayList<Article>();
 
     public App() {
         try { //get the connection to the local database file.
-            this.conn = DriverManager.getConnection("jdbc:sqlite:/Users/Billy/coda/ylk.db");
+            this.getProperties();
+            this.conn = DriverManager.getConnection(this.connectionProperties);
             System.out.println("Successfully connected to the database!");
+            System.out.println("Getting properties...");
         } catch (SQLException e) {
             System.err.println("Failed to get the connection! Error(s):\n" + e.getMessage());
+            System.exit(1);
+        }catch (IOException e){
+            System.err.println("Failed to get properties...\n" + e.getMessage());
             System.exit(1);
         }
     }
@@ -40,9 +43,17 @@ public class App {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            System.exit(0);
         }
+    }
+
+    private void getProperties() throws IOException{
+        InputStream settings = new FileInputStream("settings.properties");
+        Properties properties = new Properties();
+        properties.load(settings);
+
+        this.connectionProperties = properties.getProperty("databaseUrl");
+        this.outputDirectory = properties.getProperty("outputDirectory");
+        System.out.println("properties' got.");
     }
 
     private void getContent() throws SQLException {
