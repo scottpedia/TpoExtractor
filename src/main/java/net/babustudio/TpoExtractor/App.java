@@ -35,7 +35,9 @@ public class App implements AppAncestor {
     }
 
     public void getProperties() throws IOException {
-        InputStream settings = new FileInputStream("settings.properties");
+        //InputStream settings = new FileInputStream("settings.properties");
+        //Legacy approach for getting the properties is reserved for stability considerations. Current one used as shown below:
+        InputStream settings = new Thread().getContextClassLoader().getResourceAsStream("settings.properties");
         Properties properties = new Properties();
         properties.load(settings);
 
@@ -103,6 +105,7 @@ public class App implements AppAncestor {
             IOException ioException = new IOException("Failed to access the directory.");
         }
         dir.createNewFile();
+        System.out.println("Exporting...");
         for (Article article : this.articles) {
             File mapping = new File(this.outputDirectory + "/" + "[" + article.articleID + "] " + article.getTitle() + ".txt");
             mapping.createNewFile();
@@ -110,6 +113,7 @@ public class App implements AppAncestor {
             fileWriter.write(article.getContent());
             fileWriter.close();
         }
+        System.out.println("Done");
     }
 
 }
