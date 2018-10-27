@@ -1,17 +1,14 @@
 package net.babustudio.TpoExtractor;
 
-import com.google.gson.GsonBuilder;
-
 import java.io.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Properties;
 
-
 /**
  * Hello world!
  */
-public class App {
+public class App implements AppAncestor {
     protected Connection conn = null;
     protected String sentence = "select articleID,title,paragraphDetail from tbl_toefl_paragraph order by articleID;";
     protected String connectionProperties = "";
@@ -20,10 +17,11 @@ public class App {
 
     public App() {
         try { //get the connection to the local database file.
+            System.out.println("Getting properties...");
             this.getProperties();
             this.conn = DriverManager.getConnection(this.connectionProperties);
             System.out.println("Successfully connected to the database!");
-            System.out.println("Getting properties...");
+
         } catch (SQLException e) {
             System.err.println("Failed to get the connection! Error(s):\n" + e.getMessage());
             System.exit(1);
@@ -47,7 +45,18 @@ public class App {
         }
     }
 
-    private void getProperties() throws IOException {
+    protected static String replace(final String content) {
+        return content.replaceAll("</m_p><m_p>", "")
+                .replaceAll("</m_p>", "")
+                .replaceAll("<m_p>", "")
+                .replaceAll("}", "");
+//                .replaceAll(String.valueOf((char)123),"")// the char : {
+//                .replaceAll(String.valueOf((char)91),"")// the char : [
+//                .replaceAll(String.valueOf((char)93),"")// the char : ]
+//                .replaceAll(String.valueOf((char)124), "");// the char : |
+    }
+
+    public void getProperties() throws IOException {
         InputStream settings = new FileInputStream("settings.properties");
         Properties properties = new Properties();
         properties.load(settings);
@@ -68,7 +77,7 @@ public class App {
             while (true) {
                 if (result.getString("articleID").hashCode() != temp.hashCode()) {
                     Article article = new Article();
-                    article.content = content;
+                    article.content = this.replace(content);
                     article.title = title;
                     article.articleID = String.valueOf(i++);
                     articles.add(article);
@@ -92,7 +101,7 @@ public class App {
         }
     }
 
-    private ResultSet getResult() {
+    public ResultSet getResult() {
         PreparedStatement statement = null;
         try {
             statement = this.conn.prepareStatement(this.sentence);
@@ -125,36 +134,4 @@ public class App {
         }
     }
 
-    public class Article implements Serializable {
-        String articleID, title, content;
-
-        private Article() {
-        }
-
-        public String getArticleID() {
-            return articleID;
-        }
-
-        @Override
-        public String toString() {
-            return String.format("ArticleID: %s\nTitle: %s\n%s", articleID, title, content);
-        }
-
-        public String getTitle() {
-            return title;
-        }
-
-        public String getContent() {
-            return content;
-        }
-
-        public String toJson() {
-            return new GsonBuilder().create().toJson(this);
-        }
-
-        public String toJson(boolean prettyOut) {
-            if (prettyOut) return new GsonBuilder().setPrettyPrinting().create().toJson(this);
-            else return new GsonBuilder().create().toJson(this);
-        }
-    }
 }
