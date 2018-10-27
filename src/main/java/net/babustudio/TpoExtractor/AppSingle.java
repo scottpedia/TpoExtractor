@@ -1,5 +1,7 @@
 package net.babustudio.TpoExtractor;
 
+import net.babustudio.Models.Article;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

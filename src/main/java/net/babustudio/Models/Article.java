@@ -1,11 +1,11 @@
-package net.babustudio.TpoExtractor;
+package net.babustudio.Models;
 
 import com.google.gson.GsonBuilder;
 
 import java.io.Serializable;
 
 public class Article implements Serializable {
-    String articleID, title, content;
+    public String articleID, title, content;
 
     public Article() {
     }

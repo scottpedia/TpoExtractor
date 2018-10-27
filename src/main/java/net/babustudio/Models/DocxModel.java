@@ -1,5 +1,7 @@
-package net.babustudio.TpoExtractor;
+package net.babustudio.Models;
 
+import net.babustudio.TpoExtractor.App;
+import net.babustudio.Util;
 import org.apache.poi.wp.usermodel.HeaderFooterType;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFHeader;
@@ -32,10 +34,6 @@ public final class DocxModel extends Article {
         this.articleID = article.getArticleID();
     }
 
-    public static void main(String[] args) {
-        new DocxModel();
-    }
-
     private XWPFDocument output() {
         this.document = new XWPFDocument();
 
@@ -55,7 +53,7 @@ public final class DocxModel extends Article {
         XWPFRun bodyRun = body.createRun();
         bodyRun.setFontFamily(this.bodyFont);
         bodyRun.setFontSize(this.bodySize);
-        bodyRun.setText(App.replace(this.content));
+        bodyRun.setText(Util.replace(this.content));
 
         return this.document;
     }

@@ -1,5 +1,8 @@
 package net.babustudio.TpoExtractor;
 
+import net.babustudio.Models.Article;
+import net.babustudio.Util;
+
 import java.io.*;
 import java.sql.*;
 import java.util.ArrayList;
@@ -31,31 +34,6 @@ public class App implements AppAncestor {
         }
     }
 
-    public static void main(String[] args) {
-        try {
-            App app = new App();
-            app.getContent();
-            app.output();
-//            app.outputToSingle();
-            System.out.println("Program completed.");
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    protected static String replace(final String content) {
-        return content.replaceAll("</m_p><m_p>", "")
-                .replaceAll("</m_p>", "")
-                .replaceAll("<m_p>", "")
-                .replaceAll("}", "");
-//                .replaceAll(String.valueOf((char)123),"")// the char : {
-//                .replaceAll(String.valueOf((char)91),"")// the char : [
-//                .replaceAll(String.valueOf((char)93),"")// the char : ]
-//                .replaceAll(String.valueOf((char)124), "");// the char : |
-    }
-
     public void getProperties() throws IOException {
         InputStream settings = new FileInputStream("settings.properties");
         Properties properties = new Properties();
@@ -77,7 +55,7 @@ public class App implements AppAncestor {
             while (true) {
                 if (result.getString("articleID").hashCode() != temp.hashCode()) {
                     Article article = new Article();
-                    article.content = this.replace(content);
+                    article.content = Util.replace(content);
                     article.title = title;
                     article.articleID = String.valueOf(i++);
                     articles.add(article);
