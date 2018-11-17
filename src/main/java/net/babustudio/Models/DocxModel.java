@@ -1,6 +1,5 @@
 package net.babustudio.Models;
 
-import net.babustudio.TpoExtractor.App;
 import net.babustudio.Util;
 import org.apache.poi.wp.usermodel.HeaderFooterType;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
