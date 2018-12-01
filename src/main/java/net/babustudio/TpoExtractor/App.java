@@ -13,7 +13,7 @@ import java.util.Properties;
  */
 public class App implements AppAncestor {
     protected Connection conn = null;
-    protected String sentence = "select articleID,title,paragraphDetail from tbl_toefl_paragraph order by articleID;";
+    protected final String sentence = "select articleID,title,paragraphDetail from tbl_toefl_paragraph order by articleID;";
     protected String connectionProperties = "";
     protected String outputDirectory = "";
     protected ArrayList<Article> articles = new ArrayList<Article>();
@@ -106,8 +106,11 @@ public class App implements AppAncestor {
         }
         dir.createNewFile();
         System.out.println("Exporting...");
+        int realSequence = 0;
         for (Article article : this.articles) {
-            File mapping = new File(this.outputDirectory + "/" + "[" + article.articleID + "] " + article.getTitle() + ".txt");
+            if(article.content.length() < 10) continue;
+            realSequence++;
+            File mapping = new File(this.outputDirectory + "/" + "[" + realSequence + "] " + article.getTitle() + ".txt");
             mapping.createNewFile();
             FileWriter fileWriter = new FileWriter(mapping);
             fileWriter.write(article.getContent());

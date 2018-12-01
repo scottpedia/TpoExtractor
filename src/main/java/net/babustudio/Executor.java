@@ -1,4 +1,4 @@
-package net.babustudio.Entries;
+package net.babustudio;
 
 import net.babustudio.TpoExtractor.App;
 import net.babustudio.TpoExtractor.AppForWord;
@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class Executor {
     public static void main(String[] args) {
         try {
-            App app = new AppForWord();
+            App app = new App();
             app.getContent();
             app.output();
             System.out.println("Program completed.");

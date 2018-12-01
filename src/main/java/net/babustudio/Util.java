@@ -6,7 +6,10 @@ public final class Util {
         return content.replaceAll("</m_p><m_p>", "")
                 .replaceAll("</m_p>", "")
                 .replaceAll("<m_p>", "")
-                .replaceAll("}", "");
+                .replaceAll("}", "")
+                .replaceAll("\\s*\\[[^\\]]*\\]\\s*","")
+                .replaceAll("\\s*\\{[^\\}]*\\}\\s*","")
+                .replaceAll("\\s*\\([^\\)]*\\)\\s*","");
     }
 
 }
