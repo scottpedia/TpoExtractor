@@ -36,7 +36,7 @@ public class App implements AppAncestor {
 
     public void getProperties() throws IOException {
         //InputStream settings = new FileInputStream("settings.properties");
-        //Legacy approach for getting the properties is reserved for stability considerations. Current one used as shown below:
+        //Legacy approach for getting the properties is reserved for stability considerations. The one currently being used as shown below:
         InputStream settings = new Thread().getContextClassLoader().getResourceAsStream("settings.properties");
         Properties properties = new Properties();
         properties.load(settings);

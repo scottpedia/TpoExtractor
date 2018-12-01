@@ -6,3 +6,4 @@ The utility written in Java that can extract all the passage and listening conte
 - [x] Filtration to the useless elements in the raw paragraphs
 - [ ] A Command line interactive interface
 - [ ] A GUI implementation
+- [ ] A github-based online browsing feature (***under contingency***)
