@@ -1,4 +1,7 @@
-# TpoExtractor
+TpoExtractor
+============
+[![Build Status](https://travis-ci.org/Windows10010/TpoExtractor.svg?branch=master)](https://travis-ci.org/Windows10010/TpoExtractor)
+
 The utility written in Java that can extract all the passage and listening content from the Tpo application into txt files.
 
 # Major Obojectives
