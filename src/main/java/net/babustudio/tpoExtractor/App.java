@@ -13,7 +13,7 @@ import java.util.Properties;
  */
 public class App implements AppAncestor {
     protected Connection conn = null;
-    protected final String sentence = "select articleID,title,paragraphDetail from tbl_toefl_paragraph order by articleID;";
+    protected final String sentence = "select articleID,title,paragraphDetail,btype from tbl_toefl_paragraph order by articleID;";
     protected String connectionProperties = "";
     protected String outputDirectory = "";
     protected ArrayList<Article> articles = new ArrayList<Article>();
@@ -53,6 +53,7 @@ public class App implements AppAncestor {
             String content = "";
             String title = "";
             String temp = result.getString("articleID");
+            String type = "";
             int i = 1;
             while (true) {
                 if (result.getString("articleID").hashCode() != temp.hashCode()) {
