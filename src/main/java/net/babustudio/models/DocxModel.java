@@ -1,4 +1,4 @@
-package net.babustudio.Models;
+package net.babustudio.models;
 
 import net.babustudio.Util;
 import org.apache.poi.wp.usermodel.HeaderFooterType;

@@ -1,6 +1,6 @@
-package net.babustudio.TpoExtractor;
+package net.babustudio.tpoExtractor;
 
-import net.babustudio.Models.Article;
+import net.babustudio.models.Article;
 
 import java.io.File;
 import java.io.FileWriter;

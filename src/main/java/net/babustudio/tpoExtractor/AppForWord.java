@@ -1,7 +1,7 @@
-package net.babustudio.TpoExtractor;
+package net.babustudio.tpoExtractor;
 
-import net.babustudio.Models.Article;
-import net.babustudio.Models.DocxModel;
+import net.babustudio.models.Article;
+import net.babustudio.models.DocxModel;
 
 import java.io.File;
 import java.io.IOException;

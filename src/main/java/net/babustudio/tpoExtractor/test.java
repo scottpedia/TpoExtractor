@@ -1,4 +1,4 @@
-package net.babustudio.TpoExtractor;
+package net.babustudio.tpoExtractor;
 
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;

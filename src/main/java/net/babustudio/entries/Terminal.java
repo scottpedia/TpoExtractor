@@ -1,4 +1,4 @@
-package net.babustudio.Entries;
+package net.babustudio.entries;
 
 import java.util.Scanner;
 

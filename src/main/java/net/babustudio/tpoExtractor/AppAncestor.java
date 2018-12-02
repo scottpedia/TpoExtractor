@@ -1,4 +1,4 @@
-package net.babustudio.TpoExtractor;
+package net.babustudio.tpoExtractor;
 
 import java.io.IOException;
 import java.sql.ResultSet;

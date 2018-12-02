@@ -1,4 +1,4 @@
-package net.babustudio.Models;
+package net.babustudio.models;
 
 import com.google.gson.GsonBuilder;
 
