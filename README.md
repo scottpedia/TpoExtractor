@@ -1,5 +1,6 @@
 TpoExtractor
 ============
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0d00fe995fdd4fd486a13bee64e8aae8)](https://app.codacy.com/app/Windows10010/TpoExtractor?utm_source=github.com&utm_medium=referral&utm_content=Windows10010/TpoExtractor&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/Windows10010/TpoExtractor.svg?branch=master)](https://travis-ci.org/Windows10010/TpoExtractor)
 
 The utility written in Java that can extract all the passage and listening content from the Tpo application into txt files.
