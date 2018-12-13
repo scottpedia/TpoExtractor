@@ -7,15 +7,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class AppSingle extends App {
-    public AppSingle() {
-        super();
-    }
 
     @Override
     public void output() throws IOException {
         File dir = new File(this.outputDirectory);
         if (!dir.exists() || !dir.isDirectory()) {
-            IOException ioException = new IOException("Failed to access the directory.");
+            throw new IOException("Failed to access the directory.");
         }
         dir.createNewFile();
         File mapping = new File(this.outputDirectory + "/" + "[" + "ULTIMATE_COLLECTION" + "].txt");
