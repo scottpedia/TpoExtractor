@@ -14,14 +14,14 @@ public class test {
         XWPFRun run = paragraph.createRun();
         run.setFontSize(72);
         run.setText("Hello Wor(l)d!");
-        try{
+        try {
             docx.write(new FileOutputStream("/Users/Billy/Documents/coda/hop.docx"));
-        }catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
-        }finally {
-            try{
+        } finally {
+            try {
                 docx.close();
-            }catch (IOException e) {
+            } catch (IOException e) {
                 e.printStackTrace();
             }
         }

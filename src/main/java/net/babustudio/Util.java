@@ -7,9 +7,9 @@ public final class Util {
                 .replaceAll("</m_p>", "")
                 .replaceAll("<m_p>", "")
                 .replaceAll("}", "")
-                .replaceAll("\\s*\\[[^\\]]*\\]\\s*","")
-                .replaceAll("\\s*\\{[^\\}]*\\}\\s*","")
-                .replaceAll("\\s*\\([^\\)]*\\)\\s*","");
+                .replaceAll("\\s*\\[[^\\]]*\\]\\s*", "")
+                .replaceAll("\\s*\\{[^\\}]*\\}\\s*", "")
+                .replaceAll("\\s*\\([^\\)]*\\)\\s*", "");
     }
 
 }

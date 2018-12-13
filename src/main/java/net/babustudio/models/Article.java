@@ -31,7 +31,9 @@ public class Article implements Serializable {
         return content;
     }
 
-    public Type getType(){ return type; }
+    public Type getType() {
+        return type;
+    }
 
     public String toJson() {
         return new GsonBuilder().create().toJson(this);

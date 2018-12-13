@@ -1,9 +1,12 @@
 package net.babustudio.extractors;
 
-import net.babustudio.models.Article;
 import net.babustudio.Util;
+import net.babustudio.models.Article;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Properties;
@@ -12,8 +15,8 @@ import java.util.Properties;
  * Hello world!
  */
 public class App implements AppAncestor {
-    protected Connection conn = null;
     protected final String sentence = "select articleID,title,paragraphDetail,btype from tbl_toefl_paragraph order by articleID;";
+    protected Connection conn = null;
     protected String connectionProperties = "";
     protected String outputDirectory = "";
     protected ArrayList<Article> articles = new ArrayList<Article>();
@@ -109,7 +112,7 @@ public class App implements AppAncestor {
         System.out.println("Exporting...");
         int realSequence = 0;
         for (Article article : this.articles) {
-            if(article.content.length() < 10) continue;
+            if (article.content.length() < 10) continue;
             realSequence++;
             File mapping = new File(this.outputDirectory + "/" + "[" + realSequence + "] " + article.getTitle() + ".txt");
             mapping.createNewFile();
