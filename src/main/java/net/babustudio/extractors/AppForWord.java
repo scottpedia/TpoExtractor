@@ -1,4 +1,4 @@
-package net.babustudio.tpoExtractor;
+package net.babustudio.extractors;
 
 import net.babustudio.models.Article;
 import net.babustudio.models.DocxModel;

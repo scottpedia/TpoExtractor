@@ -1,6 +1,6 @@
 package net.babustudio;
 
-import net.babustudio.tpoExtractor.App;
+import net.babustudio.extractors.App;
 
 import java.io.IOException;
 import java.sql.SQLException;

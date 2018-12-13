@@ -1,4 +1,4 @@
-package net.babustudio.tpoExtractor;
+package net.babustudio.extractors;
 
 import org.junit.Test;
 
