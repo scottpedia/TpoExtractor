@@ -16,7 +16,6 @@ import java.util.Properties;
  */
 
 
-
 public class App implements AppAncestor {
     protected final String sentence = "select articleID,title,paragraphDetail,btype from tbl_toefl_paragraph order by articleID;";
     protected Connection conn = null;

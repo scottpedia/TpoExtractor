@@ -3,10 +3,13 @@ package net.babustudio.extractors;
 import net.babustudio.models.Article;
 import net.babustudio.models.MarkdownModel;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 
-public class AppMD extends App{
+public class AppMD extends App {
 
     private String markdownDirectory;
 
@@ -35,13 +38,14 @@ public class AppMD extends App{
 
         File passages = new File(passagesURL);
         File listenings = new File(listeningsURL);
-        passages.mkdirs(); listenings.mkdirs();
+        passages.mkdirs();
+        listenings.mkdirs();
         //create the directories
 
         System.out.println("I am here!");
 
-        for(Article oneArticle : this.articles){
-            File outfile = new File(((oneArticle.getType() == 1)?passagesURL:listeningsURL) + "/" + oneArticle.getTitle() + ".md");
+        for (Article oneArticle : this.articles) {
+            File outfile = new File(((oneArticle.getType() == 1) ? passagesURL : listeningsURL) + "/" + oneArticle.getTitle() + ".md");
             outfile.createNewFile();
             FileWriter fw = new FileWriter(outfile);
             fw.write(new MarkdownModel(oneArticle).toString());

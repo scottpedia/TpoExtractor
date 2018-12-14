@@ -1,7 +1,6 @@
 package net.babustudio;
 
 import net.babustudio.extractors.App;
-import net.babustudio.extractors.AppJson;
 import net.babustudio.extractors.AppMD;
 
 import java.io.IOException;
