@@ -1,5 +1,5 @@
 # The Origins of Agriculture
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{How did it come about that farming developed independently in a number of world centersat more or less the same time? ●Agriculture developed slowly among populations that had an extensive knowledge of plants and animals. ●{Changing from hunting and gathering to agriculture had no immediate advantages.●{To start with, it forced the population to abandon the nomad's life and became sedentary, 
 to develop methods of storage and, often, systems of irrigation.●{While hunter-gatherers always had the {of moving elsewhere when the resources were exhausted, 

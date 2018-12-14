@@ -1,5 +1,5 @@
 # Documenting the Incas
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{{{The
 Incans ruled a {empire in western South America when the Spaniards encountered them in the

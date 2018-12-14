@@ -1,5 +1,5 @@
 # Rock Art of the Australia Aborigines
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {Ever since European first explored Australia, people have been trying to understand the ancient rock drawings and cavings created by the Aborigines, the original inhabitants of the continent. ●Early in the nineteenth century, encounters with Aboriginal rock art tended to be {and open to speculative interpretation, but since the late nineteenth century, awareness of the extent and variety of Australian rock art has been growing. ●In the latter decades of the twentieth century there were intensified efforts to understand and record the abundance of Australian rock art.{The systematic study of this art is a {new discipline in Australia. ●Over the past four decades new discoveries have steadily added to the body of knowledge.
 ●The most significant data have come from a concentration on three major questions. ●First, what is the age of Australian rock art? ●Second, what is its stylistic organization 

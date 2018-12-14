@@ -1,5 +1,5 @@
 # Early Settlements in the Southwest Asia
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {The universal global warming at the end of the Ice Age had dramatic effects on temperate regions of Asia, Europe, and North America. ●Ice sheets retreated and sea levels rose.
 ●{The climatic changes in southwestern Asia were more subtle, in that they involved shifts in mountain snow lines, rainfall patterns, and vegetation cover.

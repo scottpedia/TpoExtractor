@@ -1,5 +1,5 @@
 # Petroleum Resources
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{Petroleum, consisting of crude oil and natural gas, seems to originate from organic matter in marine sediment. ●Microscopic organisms settle to the seafloor and {in marine mud. ●The organic matter may partially decompose, using up the dissolved oxygen in the sediment. ●As soon as the oxygen is gone, decay stops and the remaining organic matter is preserved.{{{. ●{As muddy sediments are pressed together, the gas and small droplets of oil may be squeezed out of the mud and may move into sandy layers nearby.
 ●{Over long periods of time, accumulations of gas and oil can collect in the sandy layers. ●{Both oil and gas are less dense than water,

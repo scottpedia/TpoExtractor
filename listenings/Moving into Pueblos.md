@@ -1,5 +1,5 @@
 # Moving into Pueblos
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{{In the Mesa Verde area of the ancient North American Southwest, living patterns changed in the thirteenth century, with large numbers of people moving into large communal dwellings called pueblos, 
 often constructed at the edges of canyons, especially on the sides of cliffs. ●Abandoning small extended-family households to move into these large pueblos with dozens if not hundreds of other

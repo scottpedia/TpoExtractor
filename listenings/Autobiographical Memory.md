@@ -1,5 +1,5 @@
 # Autobiographical Memory
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{{Think back to your childhood and try to identify your earliest memory. ●How old were you? ●{Most people are not able to recount memories for experiences prior to the age of three years,
 a phenomenon called infantile amnesia. ●{The question of why infantile amnesia occurs has intrigued psychologists for decades, especially in light of {evidence that infants and young 

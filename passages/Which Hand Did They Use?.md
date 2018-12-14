@@ -1,5 +1,5 @@
 # Which Hand Did They Use?
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{{We all know that many more people today are right-handed than left-handed. ●Can one trace this same pattern far back in prehistory? ●{Much of the evidence about right-hand versus left-hand dominance comes from stencils and prints found in rock shelters in Australia and elsewhere, 
 and in many Ice Age caves in France, Spain, and Tasmania. ●{When a left hand has been stenciled, this implies that the artist was right-handed, and vice versa.

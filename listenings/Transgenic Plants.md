@@ -1,5 +1,5 @@
 # Transgenic Plants
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {Genes from virtually any
 organism, from viruses to humans, can now be inserted into plants, creating

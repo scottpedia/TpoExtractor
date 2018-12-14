@@ -1,5 +1,5 @@
 # Deer Populations of the Puget Sound
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {Two species of deer have been prevalent in the Puget Sound area of Washington State in the Pacific Northwest of the United States. ●The black-tailed deer, a lowland, west-side cousin of the mule deer of eastern Washington, is now the most common. ●The other species, the Columbian white-tailed deer, in earlier times was common in the open prairie country; it is now restricted to the low, marshy islands and flood plains along the lower Columbia River.{{Nearly any kind of plant of the forest understory can be part of a deer's diet. ●Where the forest {the growth of grass and other meadow plants,
  the black-tailed deer browses on huckleberry, salal, dogwood, and almost any other shrub or herb. ●But this is fair-weather feeding. ●What keeps the black-tailed deer alive in the harsher seasons of plant decay and dormancy? ●One compensation for not hibernating is the built-in urge to migrate.

@@ -1,5 +1,5 @@
 # The Birth of Photography
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {Perceptions of the visible world were greatly altered by the invention of photography in the middle of the nineteenth century. ●In particular, and quite logically, the art of painting was forever changed, though not always in the ways one might have expected. ●The realistic and naturalistic painters of the mid- and late-nineteenth century were all intently aware of photography—as a thing to use, to learn from, and react to.{{{Unlike most major inventions, photography had been long and impatiently awaited. ●The images produced by the camera obscura, a boxlike device that used a pinhole or lens to throw an image onto a 
 ground-glass screen or a piece of white paper, were already familiar—the device had been much employed by topographical artists like the Italian painter Canaletto in his detailed views of the 

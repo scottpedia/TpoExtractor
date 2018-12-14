@@ -31,6 +31,7 @@ public final class DocxModel extends Article {
         this.title = article.getTitle();
         this.content = article.getContent();
         this.articleID = article.getArticleID();
+        this.type = article.type;
     }
 
     private XWPFDocument output() {

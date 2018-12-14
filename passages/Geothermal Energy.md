@@ -1,5 +1,5 @@
 # Geothermal Energy
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{Earth's internal heat, fueled by radioactivity, provides the energy for plate tectonics and continental drift, mountain building, and earthquakes. ●It can also be harnessed to drive electric
  generators and heat homes. ●Geothermal energy becomes available in a {form when underground heat is transferred by water that is heated as it passes through a subsurface region of 

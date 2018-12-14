@@ -1,5 +1,5 @@
 # Industrialization in the Netherlands and Scandinavia
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{While some European countries, such as England and Germany, began to industrialize in the eighteenth century, the Netherlands and the Scandinavian countries of Denmark, Norway,
 and Sweden developed later. ●{All four of these countries lagged considerably behind in the early nineteenth century. ●{However, they industrialized rapidly in the second half of the century,

@@ -1,5 +1,5 @@
 # Running Water on Mars
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {Photographic evidence suggests that liquid water once existed in great quantity on the surface of Mars. ●Two types of flow features are seen: runoff channels and outflow channels. ●Runoff channels are found in the southern highlands. ●These flow features are extensive systems—sometimes hundreds of kilometers in total length—of interconnecting, twisting channels that seem to {into larger, wider channels. ●They bear a strong resemblance to river systems on Earth, and geologists think that they are dried-up beds of long-gone rivers that once carried rainfall on Mars from the mountains down into the valleys. ●Runoff channels on Mars speak of a time 4 billion years ago, when the atmosphere was thicker, the surface warmer, and liquid water widespread.{{{Outflow channels are probably {of catastrophic flooding on Mars long ago. ●{They appear only in equatorial regions and generally do not form extensive interconnected networks.
 ●{Instead, they are probably the paths taken by huge volumes of water draining from the southern highlands into the northern plains. 

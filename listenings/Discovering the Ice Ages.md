@@ -1,5 +1,5 @@
 # Discovering the Ice Ages
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{In the middle of the nineteenth century, Louis Agassiz, one of the first scientists to study glaciers, immigrated to the United States from Switzerland and became a professor at 
  Harvard University, where he continued his studies in geology and other sciences. ●For his research, Agassiz visited many places in the northern parts of Europe and North America, from the mountains of Scandinavia and New England to the rolling hills of the American Midwest. ●{In all these diverse regions, Agassiz saw signs of glacial erosion 

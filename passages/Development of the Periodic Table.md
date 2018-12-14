@@ -1,5 +1,5 @@
 # Development of the Periodic Table
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{The periodic table is a chart that reflects the periodic recurrence of chemical and physical properties of the elements when the elements are arranged in order of increasing atomic number. ●It is a monumental scientific achievement, and its development illustrates the essential {between observation, 
 prediction, and testing required for scientific progress. ●In the 1800's scientists were searching for new elements. ●By the late 1860's more than 60 chemical elements had been identified,

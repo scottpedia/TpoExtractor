@@ -1,5 +1,5 @@
 # Infantile Amnesia
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {What do you remember about your life before you were three? ●{Few people can remember anything that happened to them in their early years. ●
  {Adults' memories of the next few years also tend to be scanty. ●{Most people remember only a few events—usually ones that were meaningful and distinctive, 

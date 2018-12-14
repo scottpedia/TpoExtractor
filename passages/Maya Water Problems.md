@@ -1,5 +1,5 @@
 # Maya Water Problems
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {To understand the ancient Mayan people who lived in the area that is today southern Mexico and Central America and the ecological difficulties they faced,
 one must first consider their environment, which we think of as "jungle" or "tropical rainforest." ●{This view is inaccurate, and the reason proves to be important.

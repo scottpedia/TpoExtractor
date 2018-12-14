@@ -1,5 +1,5 @@
 # Survival of Plants and Animals in Desert Conditions
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{The harsh conditions in deserts are intolerable for most plants and animals. ●Despite these conditions, however, many varieties of plants and animals have adapted to deserts in a number of ways.
 ●Most plant tissues die if their water content falls too low: the nutrients that feed plants are transmitted by water; water is a raw material in the vital process of photosynthesis; and water 

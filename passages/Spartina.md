@@ -1,5 +1,5 @@
 # Spartina
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {Spartina alterniflora, known as cordgrass, is a deciduous, perennial flowering plant native to the Atlantic coast and the Gulf Coast of the United States. ●It is the dominant native species of the lower salt marshes along these coasts, where it grows in the intertidal zone.{These natural salt marshes are among the most productive habitats in the marine environment. ●Nutrient-rich water is brought to the wetlands during each high tide, making a high rate of food production possible. ●As the seaweed and marsh grass leaves die, bacteria break down the plant material, and insects, small shrimplike organisms, fiddler crabs, and marsh snails eat the decaying plant tissue, digest it, and excrete wastes high in nutrients. ●{. ●Each tidal cycle carries plant material into the offshore water to be used by the subtidal organisms.{{{Spartina is an {competitive plant.●{It spreads primarily by underground stems; colonies form when pieces of the root system or whole plants float into an area and take 
 root or when seeds float into a suitable area and germinate.●{Spartina establishes itself on substrates ranging from sand and silt to gravel and cobble and is tolerant of salinities ranging 

@@ -1,5 +1,5 @@
 # Purpose and symbolism of colossal statues
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 Listen to part of a lecture in an art history class.The professor has been talking about colossal statues.Professor:
  We've been looking at colossal statues-works of exceptionally huge 

@@ -1,5 +1,5 @@
 # Breathing During Sleep
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{Of all the physiological differences in human sleep compared with wakefulness that have been discovered in the last decade, changes in respiratory control are most dramatic. ●Not only are there differences in the level of the functioning of respiratory systems, there are even changes in how they function. ●Movements of the rib cage for breathing are reduced during sleep,
 making the contractions of the diaphragm more important.●{Yet because of the physics of lying down, the stomach applies weight against the diaphragm and makes it more difficult for the 

@@ -1,5 +1,5 @@
 # What Controls Flowering
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {The timing of flowering and seed production is {tuned to a plant's physiology
 and the {of its environment.● In temperate climate plants lost flower early enough so that their

@@ -1,5 +1,5 @@
 # The Origins of Cetaceans
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{{It should be obvious that cetaceans—whales, porpoises, and dolphins—are mammals. ●They breathe through lungs, not through gills, and give birth to live young.
 ●Their streamlined bodies, the absence of hind legs, and the presence of a fluke and blowhole cannot disguise their affinities with land dwelling mammals. ●However, unlike the cases of sea otters and pinnipeds, 

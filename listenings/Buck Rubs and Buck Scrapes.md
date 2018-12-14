@@ -1,5 +1,5 @@
 # Buck Rubs and Buck Scrapes
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{A {sign indicating the presence of white-tailed deer in a woodlot is a buck rub. ●{A male deer makes a buck rub by striping the barkof a small tree with its antlers.
 ●{When completed, the buck rub is an obvious visual signal to us and presumable to other deer in the area.●{A rub is usually located at the shoulder height of a deeron a smooth-barked, small-diametertree.●{The smooth bark of small red maples makes this species ideal for buck rubs in the forests of 

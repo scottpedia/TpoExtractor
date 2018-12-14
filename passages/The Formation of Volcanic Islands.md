@@ -1,5 +1,5 @@
 # The Formation of Volcanic Islands
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 Earth’s surface is not made up of a single sheet of rock that forms a crust but rather a number of “tectonic plates” that fit closely, like the pieces of a giant jigsaw puzzle. ●Some plates carry islands or continents, others form the seafloor. ●All are slowly moving because the plates float on a denser semi-liquid mantle, the layer between the crust and Earth’s core. ●The plates have edges that are {, {, or {. ●It is at the boundaries between plates that most of Earth’s volcanism and earthquake activity occur.Generally speaking, the interiors of plates are geologically uneventful. ●However, there are exceptions. ●{.{{How can volcanic activity occur so far from a plate boundary? ●The Hawaiian islands provide a very {answer.●{Like many other island groups, they form a chain. 
  ●{The Hawaiian Islands Chain extends northwest from the island of Hawaii.●{In the 1840s American geologist James Daly observed that the different Hawaii islands seem to share a similar geologic

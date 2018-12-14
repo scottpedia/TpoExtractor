@@ -1,5 +1,5 @@
 # Colonizing the Americas via the Northwest Coast
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {{It has long been accepted that the Americas were colonized by a migration of peoples from Asia, slowly traveling across a land bridge called Beringiaduring the last Ice Age. ●{The first water craft theory about the migration was that around 11,000-12,000 years ago 
 there was an ice-free corridor stretching from eastern Beringia to the areas of North America south of the great northern glaciers. ●It was the midcontinental corridor between two

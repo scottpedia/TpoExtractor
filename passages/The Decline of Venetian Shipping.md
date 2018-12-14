@@ -1,5 +1,5 @@
 # The Decline of Venetian Shipping
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 In the late thirteenth century, northern Italian cities such as Genoa, Florence, and Venice began an economic {that made them into the most important economic centers of Europe. ●By the seventeenth century, however, other European powers had taken over, as the Italian cities lost much of their economic might.{{{This decline can be seen clearly in the changes that affected Venetian shipping and trade. ●First, Venic’s intermediary functions in the Adriatic Sea, where it had dominated the business of 
 shipping for other parties, were lost to direct trading. ●In the fifteenth century there was little problem recruiting sailors to row the galleys: 

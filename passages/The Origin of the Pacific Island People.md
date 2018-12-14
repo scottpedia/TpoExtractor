@@ -1,5 +1,5 @@
 # The Origin of the Pacific Island People
-[Back to Index](https://github.com/windows10010/tpoExtractor/blog/master/README.md)
+[Back to Index](https://github.com/windows10010/tpoExtractor/blob/master/README.md)
 
 {The greater Pacific region, traditionally called Oceania, consists of three cultural areas: Melanesia, Micronesia, and Polynesia. ●Melanesia, in the southwest Pacific, contains the large islands of New Guinea, the Solomons, Vanuatu, and New Caledonia. ●Micronesia, the area north of Melanesia, consists primarily of small scattered islands. ●Polynesia is the central Pacific area in the great triangle defined by Hawaii, Easter Island, and New Zealand. ●Before the arrival of Europeans, the islands in the two largest cultural areas, Polynesia and Micronesia, together contained a population estimated at 700,000.{{{Speculation on the origin of these Pacific islanders began as soon as outsiders encountered them, in the absence of solid linguistic, archaeological, and biological data,
 many fanciful and {theories were devised. ●Pacific islanders are variously thought to have come from North America, South America, Egypt, Israel,
