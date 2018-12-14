@@ -1,4 +1,4 @@
 package net.babustudio.extractors;
 
-public class AppMD {
+public class AppMD extends App{
 }

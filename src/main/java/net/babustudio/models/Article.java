@@ -1,13 +1,12 @@
 package net.babustudio.models;
 
 import com.google.gson.GsonBuilder;
-import net.babustudio.Type;
 
 import java.io.Serializable;
 
 public class Article implements Serializable {
 
-    public Type type;
+    public int type;
 
     public String articleID, title, content;
 
@@ -31,7 +30,7 @@ public class Article implements Serializable {
         return content;
     }
 
-    public Type getType() {
+    public int getType() {
         return type;
     }
 
