@@ -14,6 +14,9 @@ import java.util.Properties;
 /**
  * Hello world!
  */
+
+
+
 public class App implements AppAncestor {
     protected final String sentence = "select articleID,title,paragraphDetail,btype from tbl_toefl_paragraph order by articleID;";
     protected Connection conn = null;
@@ -61,6 +64,7 @@ public class App implements AppAncestor {
             while (true) {
                 if (result.getString("articleID").hashCode() != temp.hashCode()) {
                     Article article = new Article();
+                    article.type = Integer.valueOf(result.getString("btype"));
                     article.content = Util.replace(content);
                     article.title = title;
                     article.articleID = String.valueOf(i++);
