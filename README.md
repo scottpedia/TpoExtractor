@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="TpoExtractor-favicon.png" height="250px" width="250px" algt="insignia"/>
+  <img src="TpoExtractor-favicon.gif" height="250px" width="250px" algt="insignia"/>
 </p>
 
 TpoExtractor
