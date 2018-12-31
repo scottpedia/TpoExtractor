@@ -455,7 +455,7 @@ Index
 <details>
 <summary>
   
-## - [`Passages`](/passages)
+## [`Passages`](/passages)
 </summary>
 <p>
   
