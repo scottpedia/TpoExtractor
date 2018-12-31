@@ -19,7 +19,13 @@ The utility written in Java that can extract all the passage and listening conte
 Index
 =====
 
-## - [`Listenings`](/listenings)
+<details>
+<summary> 
+  
+  ## [`Listenings`](/listenings) 
+</summary>
+<p>
+  
   - [`Stained Glass Art`](/listenings/Stained%20Glass%20Art.md)
   - [`Poetry club activity and time management`](/listenings/Poetry%20club%20activity%20and%20time%20management.md)
   - [`The Formation Of Gas Planets`](/listenings/The%20Formation%20Of%20Gas%20Planets.md)
@@ -442,6 +448,9 @@ Index
   - [`Desert Plants`](/listenings/Desert%20Plants.md)
   - [`The Topic of the Oral Presentation`](/listenings/The%20Topic%20of%20the%20Oral%20Presentation.md)
   - [`Finding Historical Material`](/listenings/Finding%20Historical%20Material.md)
+
+</p>
+</details>
 
 ## - [`Passages`](/passages)
   - [`Crafts in the Ancient Near East`](/passages/Crafts%20in%20the%20Ancient%20Near%20East.md)
