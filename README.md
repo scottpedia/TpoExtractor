@@ -452,7 +452,13 @@ Index
 </p>
 </details>
 
+<details>
+<summary>
+  
 ## - [`Passages`](/passages)
+</summary>
+<p>
+  
   - [`Crafts in the Ancient Near East`](/passages/Crafts%20in%20the%20Ancient%20Near%20East.md)
   - [`Early Saharan Pastoralists`](/passages/Early%20Saharan%20Pastoralists.md)
   - [`Early Writing Systems`](/passages/Early%20Writing%20Systems.md)
@@ -575,3 +581,6 @@ Index
   - [`Variations in the Climate`](/passages/Variations%20in%20the%20Climate.md)
   - [`Chinese Population Growth`](/passages/Chinese%20Population%20Growth.md)
   - [`Rain Forest Soils`](/passages/Rain%20Forest%20Soils.md)
+
+</p>
+</details>
