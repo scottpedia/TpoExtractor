@@ -17,8 +17,8 @@ public final class Util {
                 .replaceAll("\\?", "%3F");
     }
 
-    public static void main(String[] args) {
-        System.out.println(nameReplace("?hdhdhdh dhdhdhd"));
+    public static final String titleReplace(final String content){
+        return content.replaceAll("\\.[A-Za-z]","");
     }
 
 }
