@@ -18,7 +18,7 @@ public final class Util {
     }
 
     public static final String titleReplace(final String content){
-        return content.replaceAll("\\.[A-Za-z]","");
+        return content.replaceAll("\\.[A-Za-z]*","");
     }
 
 }
