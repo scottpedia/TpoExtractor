@@ -1,4 +1,4 @@
-package net.babustudio;
+package net.babustudio.utils;
 
 public final class Util {
 
@@ -10,6 +10,15 @@ public final class Util {
                 .replaceAll("\\s*\\[[^\\]]*\\]\\s*", "")
                 .replaceAll("\\s*\\{[^\\}]*\\}\\s*", "")
                 .replaceAll("\\s*\\([^\\)]*\\)\\s*", "");
+    }
+
+    public static final String nameReplace(final String content) {
+        return content.replaceAll("\\s", "%20")
+                .replaceAll("\\?", "%3F");
+    }
+
+    public static void main(String[] args) {
+        System.out.println(nameReplace("?hdhdhdh dhdhdhd"));
     }
 
 }

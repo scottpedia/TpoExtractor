@@ -125,7 +125,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>net.babustudio.Executor</mainClass>
+                            <mainClass>net.babustudio.utils.Executor</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

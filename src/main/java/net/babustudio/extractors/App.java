@@ -1,7 +1,7 @@
 package net.babustudio.extractors;
 
-import net.babustudio.Util;
 import net.babustudio.models.Article;
+import net.babustudio.utils.Util;
 
 import java.io.File;
 import java.io.FileWriter;
