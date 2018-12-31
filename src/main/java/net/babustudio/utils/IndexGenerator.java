@@ -63,15 +63,15 @@ public class IndexGenerator {
     private String getMd_fragment_listenings() {
         this.md_fragment_listenings = String.format("- [`%s`](/listenings)\n", "Listenings");
         for (File listening : this.listenings) {
-            this.md_fragment_listenings += String.format(" - [`%s`](/listenings/%s)\n", listening.getName(), Util.nameReplace(listening.getName()));
+            this.md_fragment_listenings += String.format("  - [`%s`](/listenings/%s)\n", listening.getName(), Util.nameReplace(listening.getName()));
         }
         return this.md_fragment_listenings;
     }
 
     public String getMd_fragment_passages() {
-        this.md_fragment_passages = String.format("- [`%s`](/passages)\n", "Listenings");
+        this.md_fragment_passages = String.format("- [`%s`](/passages)\n", "Passages");
         for (File passage : this.passages) {
-            this.md_fragment_passages += String.format(" - [`%s`](/passages/%s)\n", passage.getName(), Util.nameReplace(passage.getName()));
+            this.md_fragment_passages += String.format("  - [`%s`](/passages/%s)\n", passage.getName(), Util.nameReplace(passage.getName()));
         }
         return this.md_fragment_passages;
     }
