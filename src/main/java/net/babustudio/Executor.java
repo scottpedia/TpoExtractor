@@ -1,15 +1,16 @@
 package net.babustudio;
 
 import net.babustudio.extractors.App;
+import net.babustudio.extractors.AppForWord;
 import net.babustudio.extractors.AppMD;
 
 import java.io.IOException;
 import java.sql.SQLException;
 
-public class Executor {
+class Executor {
     public static void main(String[] args) {
         try {
-            App app = new AppMD();
+            App app = new AppForWord();
             app.getContent();
             app.output();
             System.out.println("Program completed.");

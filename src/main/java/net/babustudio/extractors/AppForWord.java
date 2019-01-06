@@ -11,7 +11,7 @@ public class AppForWord extends App {
     @Override
     public void output() throws IOException {//to be continued...
         for (Article article : this.articles) {
-            new DocxModel(article).exportToWord(new File(this.outputDirectory + "/" + "[" + article.articleID + "] " + article.getTitle() + ".docx"));
+            if(!article.getTitle().isEmpty()) new DocxModel(article).exportToWord(new File(this.outputDirectory + "/" + "[" + article.articleID + "] " + article.getTitle() + ".docx"));
         }
     }
 }

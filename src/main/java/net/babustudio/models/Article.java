@@ -34,9 +34,11 @@ public class Article implements Serializable {
         return type;
     }
 
-    public String toJson() {
-        return new GsonBuilder().create().toJson(this);
-    }
+// --Commented out by Inspection START (2019/1/6, 10:15):
+//    public String toJson() {
+//        return new GsonBuilder().create().toJson(this);
+//    }
+// --Commented out by Inspection STOP (2019/1/6, 10:15)
 
     public String toJson(boolean prettyOut) {
         if (prettyOut) return new GsonBuilder().setPrettyPrinting().create().toJson(this);

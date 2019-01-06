@@ -17,13 +17,13 @@ import java.util.Properties;
 
 
 public class App implements AppAncestor {
-    protected final String sentence = "select articleID,title,paragraphDetail,btype from tbl_toefl_paragraph order by articleID;";
-    protected Connection conn = null;
-    protected String connectionProperties = "";
-    protected String outputDirectory = "";
-    protected ArrayList<Article> articles = new ArrayList<Article>();
+    private final String sentence = "select articleID,title,paragraphDetail,btype from tbl_toefl_paragraph order by articleID;";
+    private Connection conn = null;
+    String connectionProperties = "";
+    String outputDirectory = "";
+    final ArrayList<Article> articles = new ArrayList<Article>();
 
-    public App() {
+    App() {
         try { //get the connection to the local database file.
             System.out.println("Getting properties...");
             this.getProperties();

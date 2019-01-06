@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class MarkdownModel extends Article {
 
-    private static String projectURL;
+    private static final String projectURL;
 
     static {
         InputStream settings = new Thread().getContextClassLoader().getResourceAsStream("settings.properties");
@@ -21,8 +21,7 @@ public class MarkdownModel extends Article {
         projectURL = properties.getProperty("projectURL");
     }
 
-    private String markdownText = null;
-    private String pathSuffix = null;
+    // --Commented out by Inspection (2019/1/6, 10:15):private String pathSuffix = null;
 
     public MarkdownModel(Article from) {
         super();
@@ -32,13 +31,15 @@ public class MarkdownModel extends Article {
         this.type = from.type;
     }
 
-    public String getPathSuffix() {
-        return (this.type == 1) ? "/passages" : "/listenings";
-    }
+// --Commented out by Inspection START (2019/1/6, 10:15):
+//    public String getPathSuffix() {
+//        return (this.type == 1) ? "/passages" : "/listenings";
+//    }
+// --Commented out by Inspection STOP (2019/1/6, 10:15)
 
-    public String getMarkdownText() {
-        markdownText = String.format("# %s\n[Back to Index](%s)\n\n%s", this.title, this.projectURL + "/README.md", this.content);
-        return this.markdownText;
+    private String getMarkdownText() {
+        String markdownText = String.format("# %s\n[Back to Index](%s)\n\n%s", this.title, projectURL + "/README.md", this.content);
+        return markdownText;
     }
 
     @Override

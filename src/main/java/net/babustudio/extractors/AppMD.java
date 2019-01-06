@@ -13,9 +13,11 @@ public class AppMD extends App {
 
     private String markdownDirectory;
 
-    public AppMD() {
-        super();
-    }
+// --Commented out by Inspection START (2019/1/6, 10:15):
+//    public AppMD() {
+//        super();
+//    }
+// --Commented out by Inspection STOP (2019/1/6, 10:15)
 
     @Override
     public void getProperties() throws IOException {

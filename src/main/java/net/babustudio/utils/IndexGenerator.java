@@ -3,15 +3,15 @@ package net.babustudio.utils;
 import java.io.*;
 import java.util.ArrayList;
 
-public class IndexGenerator {
+class IndexGenerator {
 
-    ArrayList<File> listenings = null;
-    ArrayList<File> passages = null;
-    String[] directories = {"/Users/Billy/coda/TpoExtractor/listenings", "/Users/Billy/coda/TpoExtractor/passages"};
-    String md_fragment_listenings = "";
-    String md_fragment_passages = "";
+    private ArrayList<File> listenings = null;
+    private ArrayList<File> passages = null;
+    private final String[] directories = {"/Users/Billy/coda/TpoExtractor/listenings", "/Users/Billy/coda/TpoExtractor/passages"};
+    private String md_fragment_listenings = "";
+    private String md_fragment_passages = "";
 
-    public IndexGenerator() {
+    private IndexGenerator() {
         this.getPassages();
         this.getListening();
     }
@@ -68,7 +68,7 @@ public class IndexGenerator {
         return this.md_fragment_listenings;
     }
 
-    public String getMd_fragment_passages() {
+    private String getMd_fragment_passages() {
         this.md_fragment_passages = String.format("- [`%s`](/passages)\n", "Passages");
         for (File passage : this.passages) {
             this.md_fragment_passages += String.format("  - [`%s`](/passages/%s)\n", Util.titleReplace(passage.getName()), Util.nameReplace(passage.getName()));

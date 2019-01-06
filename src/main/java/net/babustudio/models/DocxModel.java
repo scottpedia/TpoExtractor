@@ -13,18 +13,13 @@ import java.io.IOException;
 
 public final class DocxModel extends Article {
 
-    XWPFDocument document = null;
-    private int titleSize = 30;
-    private int bodySize = 12;
-    private String titleFont = "Times New Roman";
-    private boolean isTitleBold = true;
-    private String bodyFont = "Times New Roman";
-    private String headerBody = "TOEFL Preparation Resources";
-    private String headerFont = "Menlo";
+    private XWPFDocument document = null;
 
-    public DocxModel() {
-        super();
-    }
+// --Commented out by Inspection START (2019/1/6, 10:15):
+//    public DocxModel() {
+//        super();
+//    }
+// --Commented out by Inspection STOP (2019/1/6, 10:15)
 
     public DocxModel(Article article) {
         super();
@@ -39,20 +34,27 @@ public final class DocxModel extends Article {
 
         XWPFHeader header = this.document.createHeader(HeaderFooterType.DEFAULT);
         XWPFRun headerRun = header.createParagraph().createRun();
-        headerRun.setFontFamily(this.headerFont);
-        headerRun.setText(this.headerBody);
+        String headerFont = "Menlo";
+        headerRun.setFontFamily(headerFont);
+        String headerBody = "TOEFL Preparation Resources";
+        headerRun.setText(headerBody);
 
         XWPFParagraph title = this.document.createParagraph();
         XWPFRun titleRun = title.createRun();
-        titleRun.setFontSize(this.titleSize);
-        titleRun.setBold(this.isTitleBold);
-        titleRun.setFontFamily(this.titleFont);
+        int titleSize = 30;
+        titleRun.setFontSize(titleSize);
+        boolean isTitleBold = true;
+        titleRun.setBold(isTitleBold);
+        String titleFont = "Times New Roman";
+        titleRun.setFontFamily(titleFont);
         titleRun.setText(this.title + "\n\n");
 
         XWPFParagraph body = this.document.createParagraph();
         XWPFRun bodyRun = body.createRun();
-        bodyRun.setFontFamily(this.bodyFont);
-        bodyRun.setFontSize(this.bodySize);
+        String bodyFont = "Times New Roman";
+        bodyRun.setFontFamily(bodyFont);
+        int bodySize = 12;
+        bodyRun.setFontSize(bodySize);
         bodyRun.setText(Util.replace(this.content));
 
         return this.document;
