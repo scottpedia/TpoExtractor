@@ -22,7 +22,7 @@ Index
 <details>
 <summary> 
   
-  ## [`Listenings`](/listenings) 
+  ## [:ear:`Listenings`](/listenings) 
 </summary>
 <p>
   
@@ -455,7 +455,7 @@ Index
 <details>
 <summary>
   
-## [`Passages`](/passages)
+## [:page_with_curl:`Passages`](/passages)
 </summary>
 <p>
   
