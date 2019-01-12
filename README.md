@@ -455,7 +455,7 @@ Index
 <details>
 <summary>
   
-## [:paper_with_curl:`Passages`](/passages)
+## [:page_with_curl:`Passages`](/passages)
 </summary>
 <p>
   
