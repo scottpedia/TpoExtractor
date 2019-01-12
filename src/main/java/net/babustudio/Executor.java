@@ -10,7 +10,7 @@ import java.sql.SQLException;
 class Executor {
     public static void main(String[] args) {
         try {
-            App app = new AppForWord();
+            App app = new AppMD();
             app.getContent();
             app.output();
             System.out.println("Program completed.");

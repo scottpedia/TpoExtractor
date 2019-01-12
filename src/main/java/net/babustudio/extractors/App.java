@@ -23,7 +23,7 @@ public class App implements AppAncestor {
     String outputDirectory = "";
     final ArrayList<Article> articles = new ArrayList<Article>();
 
-    App() {
+    public App() {
         try { //get the connection to the local database file.
             System.out.println("Getting properties...");
             this.getProperties();
