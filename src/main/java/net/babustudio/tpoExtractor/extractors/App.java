@@ -24,6 +24,7 @@ public class App implements AppAncestor {
     private Connection conn = null;
 
     public App() {
+
         try { //get the connection to the local database file.
             System.out.println("Getting properties...");
             this.getProperties();
