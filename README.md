@@ -1,3 +1,5 @@
+# 如果你是新东方的老师，请你不要下载，我实在无法理解你们在干什么，你们真的是把我们的同学们害惨了。
+# 如果你是新东方的学生，希望你们不要再上新东方了，他们真的是害人！
 
 <p align="center">
   <img src="TpoExtractor-favicon.gif" height="250px" width="250px" algt="insignia"/>
