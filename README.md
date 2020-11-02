@@ -9,13 +9,15 @@ TpoExtractor
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0d00fe995fdd4fd486a13bee64e8aae8)](https://app.codacy.com/app/Windows10010/TpoExtractor?utm_source=github.com&utm_medium=referral&utm_content=Windows10010/TpoExtractor&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/Windows10010/TpoExtractor.svg?branch=master)](https://travis-ci.org/Windows10010/TpoExtractor)
 
-The utility written in Java that can extract all the passage and listening content from the Tpo application into txt files.
+Dump the complete TPO app's internal database into human-viewable format.
 
-# Major Obojectives
-- [x] Featuring exporting to DOC files with formats
-- [x] Filtration to the useless elements in the raw paragraphs
-- [x] A github-based online browsing feature (***under contingency***)
-- [ ] tpoextractor.github.io (***document site***)
+This project has two parts. The first part is the source code of a program written in Java(with maven). The program's job is to dump the data from a sqlite database and export it in different human-viewable formats.(.docx, .txt...). The second part is the raw data dumpt, which you can find in the folder `./docs` under the root directory. All the data are arranged on a per-article basis in .md format.
+
+The database, as a file `qsl.db`, is a sqlite database found in an application developed by a [Chinese education organization](https://zhan.com/) to simulate the testing environment of TOEFL exam. The application itself has a user interface almost identical to the computerized test screen of TOEFL iBT and contains a huge amount of sample questions. So the database itself is basically a huge question bank.
+
+In the application, however, the program is designed to prevent user from mass-copying the sample articles & transcripts. So I created this program in the order of mass-exporting the useful material in the database into conventional formats. The exported material can be then used in many scenarios.(e.g. self-study resources, teaching material, reading materials, etc)
+
+***Very sadly***, the English learning in mainland China is very inpractical and ridiculous at a huge scale. By a huge scale, I am talking about the nation-wide situation. Education institutions offering English learning oppurtunities, including Public&Private schools, private education oraganizations, universities, are extremely profit-driven. Combined with the competitive nature of modern Chinese society, the whole process becomes distorting and misleading. That may attribute to the reality that PRC citizens in English-speaking countries suffer a lot more in daily communication than people from other parts of the world.
 
 Index
 =====
