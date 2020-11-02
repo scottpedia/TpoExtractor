@@ -11,9 +11,9 @@ TpoExtractor
 
 Dump the complete TPO app's internal database into human-viewable format.
 
-This project has two parts. The first part is the source code of a program written in Java(with maven). The program's job is to dump the data from a sqlite database and export it in different human-viewable formats.(.docx, .txt...). The second part is the raw data dumpt, which you can find in the folder `./docs` under the root directory. All the data are arranged on a per-article basis in .md format.
+This project has two parts. The first part is the source code of a program written in Java(with maven). The program's job is to dump the data from an sqlite database and export it in different human-viewable formats.(.docx, .txt...). The second part is the raw data dumpt, which you can find in the folder `./docs` under the root directory. All the data are arranged on a per-article basis in .md format.
 
-The database, as a file `qsl.db`, is a sqlite database found in an application developed by a [Chinese education organization](https://zhan.com/) to simulate the testing environment of TOEFL exam. The application itself has a user interface almost identical to the computerized test screen of TOEFL iBT and contains a huge amount of sample questions. So the database itself is basically a huge question bank.
+The database, as a file `qsl.db`, is an sqlite database found in an application developed by a [Chinese education organization](https://zhan.com/) to simulate the testing environment of TOEFL exam. The application itself has a user interface almost identical to the computerized test screen of TOEFL iBT and contains a huge amount of sample questions. So the database itself is basically a huge question bank.
 
 In the application, however, the program is designed to prevent user from mass-copying the sample articles & transcripts. So I created this program in the order of mass-exporting the useful material in the database into conventional formats. The exported material can be then used in many scenarios.(e.g. self-study resources, teaching material, reading materials, etc)
 
@@ -26,6 +26,8 @@ I started this project in Oct 2018, when I was in my home city in China. It was 
 At one point around a few months ago, I deleted this repository, because I feel like there is no point in doing something positive in helping a completely negatively-oriented English learning system. And my effort was largely perceived by people who know it, as some kind of a showing-off thing instead of something helpful. People who were learning English with me in school were so desperate and helpless in all that mess, little can be done to help them.
 
 The repo was recovered from deletion a few weeks ago by me with the intention to include this in my university application. So unfortunately, all the assets in the previous releases are lost. I plan to use my spare time to do some renovations to this project(cleaning up the code, re-generate the assets, update the README...).
+
+Honestly, I do not expect this project to be somewhat helpful... Very few people have passed by. But I did help out one of my frieds' girl friend who needed this material.
 
 Index
 =====
