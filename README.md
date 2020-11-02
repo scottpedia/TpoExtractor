@@ -19,7 +19,7 @@ In the application, however, the program is designed to prevent user from mass-c
 
 ***Very sadly***, the English learning in mainland China is very inpractical and ridiculous at a huge scale. By a huge scale, I am talking about the nation-wide situation. Education institutions offering English learning oppurtunities, including Public&Private schools, private education oraganizations, universities, are extremely profit-driven. Combined with the competitive nature of modern Chinese society, the whole process becomes distorting and misleading. Students and adult learner have no knowledge beyond what they perceived in that environment so most of them are heavily affected. That may attribute to the reality that PRC citizens in English-speaking countries suffer a lot more in daily communication than people from other parts of the world.
 
-# Originality
+# Originality & Project Story
 
 I started this project in Oct 2018, when I was in my home city in China. It was a part of my experimenting with Java programming language. It was also part of an effort to help my English teacher(outside the school). After a few big changes, I archived the repo somewhere around a year ago.
 
