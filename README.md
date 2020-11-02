@@ -27,7 +27,7 @@ At one point around a few months ago, I deleted this repository, because I feel 
 
 The repo was recovered from deletion a few weeks ago by me with the intention to include this in my university application. So unfortunately, all the assets in the previous releases are lost. I plan to use my spare time to do some renovations to this project(cleaning up the code, re-generate the assets, update the README...).
 
-Honestly, I do not expect this project to be somewhat helpful... Very few people have passed by. But I did help out one of my frieds' girl friend who needed this material.
+Honestly, I do not expect this project to be somewhat helpful... Very few people have passed by. But I did help out one of my friends' girl friend who needed this material.
 
 Index
 =====
