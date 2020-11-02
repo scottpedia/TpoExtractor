@@ -13,7 +13,7 @@ Dump the complete TPO app's internal database into human-viewable format.
 
 This project has two parts. The first part is the source code of a program written in Java(with maven). The program's job is to dump the data from an sqlite database and export it in different human-viewable formats.(.docx, .txt...). The second part is the raw data dumpt, which you can find in the folder `./docs` under the root directory. All the data are arranged on a per-article basis in .md format.
 
-The database, as a file `qsl.db`, is an sqlite database found in an application developed by a [Chinese education organization](https://zhan.com/) to simulate the testing environment of TOEFL exam. The application itself has a user interface almost identical to the computerized test screen of TOEFL iBT and contains a huge amount of sample questions. So the database itself is basically a huge question bank.
+The database, as a file `ylk.db`, is an sqlite database found in an application developed by a [Chinese education organization](https://zhan.com/) to simulate the testing environment of TOEFL exam. The application itself has a user interface almost identical to the computerized test screen of TOEFL iBT and contains a huge amount of sample questions. So the database itself is basically a huge question bank.
 
 In the application, however, the program is designed to prevent user from mass-copying the sample articles & transcripts. So I created this program in the order of mass-exporting the useful material in the database into conventional formats. The exported material can be then used in many scenarios.(e.g. self-study resources, teaching material, reading materials, etc)
 
