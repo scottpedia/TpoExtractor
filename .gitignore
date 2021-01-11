@@ -3,4 +3,6 @@
 target/
 #target output by maven during test scope
 .vscode/
+.project
 .DS_Store
+.travis.yml
