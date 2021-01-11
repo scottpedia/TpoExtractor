@@ -14,6 +14,10 @@ In case the company decides to modify the future release of TPO application such
 
 For how to re-generate the word documents with source code. Please see the [latest release note](https://github.com/Scottpedia/TpoExtractor/releases). If you want to know more details about how this program works, you can get in touch with me by [email](#author-and-license).
 
+## Document Preview
+
+**For a preview of these documents, go to this [page](docs/preview.md).**
+
 ## Author and License
 
 Copyright (C) 2018-2021 [Scott X. Liang](https://github.com/scottpedia)   
