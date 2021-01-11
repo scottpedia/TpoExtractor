@@ -70,7 +70,7 @@ public class App implements AppAncestor {
                     which means the detection of a new article*/
                     Article article = new Article();
                     article.type = Integer.valueOf(result.getString("btype"));
-                    article.content = String.format("%s\n----------------------------------------------\n\n", title) + Utils.replace(content);
+                    article.content = Utils.replace(content);
                     article.title = title;
                     article.articleID = String.valueOf(i++);
                     articles.add(article);

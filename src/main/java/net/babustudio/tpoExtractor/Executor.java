@@ -2,6 +2,7 @@ package net.babustudio.tpoExtractor;
 
 import net.babustudio.tpoExtractor.extractors.App;
 import net.babustudio.tpoExtractor.extractors.AppAncestor;
+import net.babustudio.tpoExtractor.extractors.AppForWord;
 import net.babustudio.tpoExtractor.utils.Utils;
 
 import java.io.IOException;
@@ -34,6 +35,6 @@ public class Executor {
     }
 
     public static void main(String[] args) {
-        execute(new App(), false);
+        execute(new AppForWord(), false);
     }
 }

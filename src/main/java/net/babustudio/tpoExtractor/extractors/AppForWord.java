@@ -9,10 +9,13 @@ import java.io.IOException;
 public class AppForWord extends App {
 
     @Override
-    public void output() throws IOException {//to be continued...
+    public void output() throws IOException {// to be continued...
+        int counter = 1;
         for (Article article : this.articles) {
             if (!article.getTitle().isEmpty())
-                new DocxModel(article).exportToWord(new File(this.outputDirectory + "/" + "[" + article.articleID + "] " + article.getTitle() + ".docx"));
+                if (article.getType() == 1)
+                    new DocxModel(article).exportToWord(new File(this.outputDirectory + "/" + "[" + counter++
+                            + "] " + article.getTitle() + ".docx"));
         }
     }
 }
