@@ -2,7 +2,7 @@
 
 This project is dedicated to dump the internal database of TPO application developed by [zhan.com](http://zhan.com), and release all the TOEFL reading passages in the format of Microsoft Work document found in the database. 
 
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/scottpedia/tpoextractor/latest/MicrosoftWord.zip?label=DOWNLOAD%20ZIP%20FILE&style=for-the-badge) ![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/scottpedia/tpoextractor/latest/MicrosoftWord.zip?label=%E4%B8%8B%E8%BD%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&style=for-the-badge)
+[![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/scottpedia/tpoextractor/latest/MicrosoftWord.zip?label=DOWNLOAD%20ZIP%20FILE&style=for-the-badge)](https://github.com/Scottpedia/TpoExtractor/releases/download/1.2/MicrosoftWord.zip) [![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/scottpedia/tpoextractor/latest/MicrosoftWord.zip?label=%E4%B8%8B%E8%BD%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&style=for-the-badge)](https://github.com/Scottpedia/TpoExtractor/releases/download/1.2/MicrosoftWord.zip)
 
 This project is currently **inactive**, and is not expecting any contributions. However, if you are interested in the source code, you are welcome to clone this repository and use it as you like, subject to certain [terms and conditions](#LICENSE).
 
