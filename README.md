@@ -4,7 +4,7 @@ This project is dedicated to dump the internal database of TPO application devel
 
 [![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/scottpedia/tpoextractor/latest/MicrosoftWord.zip?label=DOWNLOAD%20ZIP%20FILE&style=for-the-badge)](https://github.com/Scottpedia/TpoExtractor/releases/download/1.2/MicrosoftWord.zip) [![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/scottpedia/tpoextractor/latest/MicrosoftWord.zip?label=%E4%B8%8B%E8%BD%BD%E5%8E%8B%E7%BC%A9%E5%8C%85&style=for-the-badge)](https://github.com/Scottpedia/TpoExtractor/releases/download/1.2/MicrosoftWord.zip)
 
-This project is currently **inactive**, and is not expecting any contributions. However, if you are interested in the source code, you are welcome to clone this repository and use it as you like, subject to certain [terms and conditions](#LICENSE).
+This project is currently **inactive**, and is not expecting any contributions. However, if you are interested in the source code, you are welcome to clone this repository and use it as you like, subject to certain [terms and conditions](#author-and-license).
 
 The database as I mentioned contains almost all the data, or the links to the data, that are used by the TPO application. That includes **listening materials in the form of audio recording**, **listening transcripts**, **translation of the listening transcripts**, etc. It's totally technically possible to dump all of them in the form of readable format(e.g. html, MS word document). This project has only extracted the **reading passages** from this database.
 
@@ -20,7 +20,7 @@ For how to re-generate the word documents with source code. Please see the [late
 
 ## Author and License
 
-Copyright (C) 2018-2021 [Scott X. Liang](https://github.com/scottpedia)   
+Copyright (C) 2018-2021 [Scott X. Liang](https://github.com/scottpedia) \<me@theanonymity.de\>   
 ![GPL3](https://www.gnu.org/graphics/gplv3-with-text-84x42.png)   
 Except where otherwise noted, the **program** in this repository is licensed under [GNU General Public License Version 3](https://www.gnu.org/licenses/gpl-3.0.txt).   
 ![CC-BY-NC-SA](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)   
