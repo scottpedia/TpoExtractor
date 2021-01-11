@@ -4,8 +4,6 @@ This page contains links to the documents to be released hosted in this reposito
 
 ## Table of Content
 
-------------
-
 <details>
 <summary> 
   
