@@ -22,7 +22,7 @@ For how to re-generate the word documents with the source code. Please see the [
 
 ## Author and License
 
-Copyright (C) 2018-2021 [Scott X. Liang](https://github.com/scottpedia) \<scott.liang@pm.me\>   
+Copyright (C) 2018-2022 [Scott X. Liang](https://github.com/scottpedia) \<scott.liang@pm.me\>   
 ![GPL3](https://www.gnu.org/graphics/gplv3-with-text-84x42.png)   
 Except where otherwise noted, the **program** in this repository is licensed under [GNU General Public License Version 3](https://www.gnu.org/licenses/gpl-3.0.txt).   
 ![CC-BY-NC-SA](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)   
