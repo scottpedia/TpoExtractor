@@ -5,9 +5,9 @@ This page contains links to the documents to be released hosted in this reposito
 ## Table of Content
 
 <details>
-<summary> 
+<summary title="Expand to see details."> 
   
-  ## :ear:`Listenings`
+  <h2> :ear:<code>Listenings</code> </h2>
 </summary>
 <p>
   
@@ -438,9 +438,9 @@ This page contains links to the documents to be released hosted in this reposito
 </details>
 
 <details>
-<summary>
+<summary title="Expand to see details.">
   
-## :page_with_curl:`Passages`
+  <h2> :page_with_curl: <code>Passages</code></h2>
 </summary>
 <p>
   
